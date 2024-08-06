@@ -183,7 +183,8 @@ main{
     font-weight: 700;
 }
 .habit-card p,
-.common-exercise p{
+.common-exercise p,
+.calculator-container p{
     font-size: 14px;
     line-height: 22px;
 }
@@ -297,7 +298,62 @@ margin: 100px auto;
     width: 700px;
     margin: 0 auto;
 }
-
+/* ====calculator chart===== */
+.calculator-chart{
+     background: rgb(34, 34, 34);;
+}
+.calculator-container{
+    display: grid;
+    grid-template-columns: 0.8fr 1.1fr;
+    gap: 4rem;
+    padding: 50px 0;
+}
+.calculator-container h4{
+    font-size: 25px;
+}
+table, th, td{
+    border: 1px solid #766f6f;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    text-align: left;
+    margin-top: 30px;
+  } 
+th, td {
+    padding: 10px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+th{font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+.form{
+    margin: 30px 0;
+}
+.form-row-1,
+.form-row-2,
+.form-row-3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.form-row-3{
+    grid-template-columns: 1fr;
+}
+.form input, select{
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: 500;
+}
+ 
+ 
 
 
  
