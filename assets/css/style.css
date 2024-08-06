@@ -182,7 +182,8 @@ main{
     line-height: 50px;
     font-weight: 700;
 }
-.habit-card p{
+.habit-card p,
+.common-exercise p{
     font-size: 14px;
     line-height: 22px;
 }
@@ -215,3 +216,79 @@ margin: 100px auto;
     height: 100%;
     border-radius: 16px;
 }
+/* ======training start===== */
+.training-content{
+    margin-top: 50px;
+}
+.row-1,
+.row-2{
+    display: grid;
+    grid-template-rows: 200px;
+}
+.row-1{
+    grid-template-columns: 0.7fr 1.5fr 0.8fr;
+}
+.row-2{
+    grid-template-columns: 1.2fr 0.8fr 1fr;
+}
+.training-description p{
+    width: 565px;
+}
+.training-content img{
+    height: 100%;
+    width: 100%;
+}
+.common-exercise{
+    position: relative;
+}
+.common-exercise::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.exercise-img-1::after{
+    background-color:rgba(6, 255, 210, 0.5);
+}
+.exercise-img-2::after{
+    background-color:rgba(255, 0, 0, 0.3);
+}
+.exercise-img-3::after,
+.exercise-img-4::after{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.exercise-img-5::after{
+    background-color:rgba(66, 255, 0, 0.3);
+}
+.exercise-img-6::after{
+    background-color:rgba(0, 71, 255, 0.3);
+}
+.common-exercise p{
+    position: absolute;
+    z-index: 1;
+    letter-spacing: 0;
+    font-weight: 500;
+    left: 10%;
+    color: white;
+}
+.exercise-img-1 p{
+    top: 80%;
+    color: black;
+}
+.exercise-img-2 p,
+.exercise-img-4 p{
+    top: 10%;
+}
+.exercise-img-3 p,
+.exercise-img-5 p,
+.exercise-img-6 p{
+    top: 70%;
+}
+.exercise-img-4 p{
+    left: 55%;
+}
+
+
+ 
