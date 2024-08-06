@@ -165,6 +165,7 @@ main{
     width: 636px;
     margin: 0 auto;
     padding: 100px 0 50px 0;
+
 }
 .habit-main{
     display: grid;
@@ -174,7 +175,7 @@ main{
 }
 .habit-card img{
     border-radius: 50%;
-    border: 2px solid rgb(79, 78, 78);
+    border: 2px solid #4F4E4E;
 }
 .habit-card h5{
     font-size: 18px;
