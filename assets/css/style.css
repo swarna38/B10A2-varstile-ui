@@ -289,6 +289,14 @@ margin: 100px auto;
 .exercise-img-4 p{
     left: 55%;
 }
+/* =====bmi calculator====== */
+.calculator{
+    height: 300px;
+}
+.calculator-content{
+    width: 700px;
+    margin: 0 auto;
+}
 
 
 
