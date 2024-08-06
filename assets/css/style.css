@@ -160,12 +160,12 @@ main{
     background: #000000;
 }
 /* =====habit section start===== */
-.habit-description{
+.habit-description,
+.team-header{
     text-align: center;
     width: 636px;
     margin: 0 auto;
     padding: 100px 0 50px 0;
-
 }
 .habit-main{
     display: grid;
@@ -320,12 +320,12 @@ table {
     text-align: left;
     margin-top: 30px;
   } 
-th, td {
+th, td, .team-content .card p {
     padding: 10px;
     font-size: 13px;
     color: rgba(255, 255, 255, 0.5);
 }
-th{font-size: 15px;
+th, .team-content .card h4{font-size: 15px;
     color: white;
     font-weight: 500;
 }
@@ -352,7 +352,44 @@ th{font-size: 15px;
     font-size: 15px;
     font-weight: 500;
 }
- 
+/* =====team star====== */
+.team{
+    padding: 60px 0;
+}
+.team-header{
+    padding: 0;
+} 
+.team-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 260px 260px;
+    gap: 1.2rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+.team-content .card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    filter: brightness(80%);
+}
+.team-content .card{
+    position: relative;
+}
+.team-content .card h4{
+    font-weight: 800;
+}
+.team-content .card h4, .team-content .card p{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+.team-content .card p{
+    top: 79%;
+    left: 7%;
+}
  
 
 
