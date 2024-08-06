@@ -308,7 +308,8 @@ margin: 100px auto;
     gap: 4rem;
     padding: 50px 0;
 }
-.calculator-container h4{
+.calculator-container h4,
+.footer-container h4{
     font-size: 25px;
 }
 table, th, td{
@@ -320,7 +321,7 @@ table {
     text-align: left;
     margin-top: 30px;
   } 
-th, td, .team-content .card p {
+th, td, .team-content .card p, .footer-1 p{
     padding: 10px;
     font-size: 13px;
     color: rgba(255, 255, 255, 0.5);
@@ -380,6 +381,7 @@ th, .team-content .card h4{font-size: 15px;
 }
 .team-content .card h4{
     font-weight: 800;
+    font-size: 18px;
 }
 .team-content .card h4, .team-content .card p{
     position: absolute;
@@ -390,6 +392,37 @@ th, .team-content .card h4{font-size: 15px;
     top: 79%;
     left: 7%;
 }
+/* =====footer star===== */
+.footer-content{
+    display: grid;
+    grid-template-columns: 1.6fr 0.8fr 0.5fr;
+    gap: 2rem;
+    margin-bottom: 40px;
+}
+.footer{
+    background:rgb(28, 26, 26);
+    padding: 50px 0;
+}
+.footer-1 h4{
+    color: rgb(230, 83, 60);
+    font-size: 50px;
+    font-style: italic;
+    line-height: 120px;
+}
+.footer-2 p, .footer-3 p{
+   line-height: 40px; 
+   font-size: 18px;
+}
+.footer-1 p{
+    padding: 0;
+    width: 372px;
+    font-size: 14px;
+}
+.semi-footer{
+    text-align: center;
+    padding-top: 50px;
+}
+
  
 
 
