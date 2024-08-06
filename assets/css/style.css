@@ -220,6 +220,9 @@ margin: 100px auto;
 .training-content{
     margin-top: 50px;
 }
+.training-description p{
+    width: 565px;
+}
 .row-1,
 .row-2{
     display: grid;
@@ -230,9 +233,6 @@ margin: 100px auto;
 }
 .row-2{
     grid-template-columns: 1.2fr 0.8fr 1fr;
-}
-.training-description p{
-    width: 565px;
 }
 .training-content img{
     height: 100%;
@@ -289,6 +289,7 @@ margin: 100px auto;
 .exercise-img-4 p{
     left: 55%;
 }
+
 
 
  
