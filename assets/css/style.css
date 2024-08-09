@@ -49,7 +49,7 @@ p{
 /* ====navbar start===== */
 .header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgb(18, 17, 17) 100%);
-    height: 100vh;
+    height: auto;
 }
 .nav-bar{
     justify-content: space-between;
@@ -82,6 +82,9 @@ p{
     font-size: 16px;
     font-weight: 600;
     line-height: 18px;
+}
+.ham-burs{
+    display: none;
 }
 /* -----banner start----  */
 .banner-container{
@@ -191,11 +194,11 @@ main{
 /* =====run section start==== */
 .run{
     border-radius: 18px;
-background: rgb(34, 34, 34);
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-padding: 30px;
-margin: 100px auto;
+    background: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+    margin: 100px auto;
 }
 .run-content{
     padding-left: 20px;

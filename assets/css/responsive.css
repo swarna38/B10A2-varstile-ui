@@ -1,0 +1,145 @@
+
+@media screen and (max-width: 576px){
+    .nav-bar{
+        padding: 0.5rem 0 0rem 0;
+    }
+    .ham-burs{
+        display: block;
+        color: white;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .menubar{
+        display: none;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content, .banner-img, .calculator-container p{
+        width: 100%;
+    }
+    .banner-content h1{
+        padding-top: 0;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner-content p{
+        margin: 20px 0;
+    }
+    .btn-primary{
+        padding: 12px 26px;
+        font-size: 14px;
+        border-radius: 42px;
+        letter-spacing: 1px;
+    }
+    .banner-img-box{
+        justify-content: center;
+    }
+    .workout{
+        top: 20%;
+        left: 60%;
+    }
+    .common-div p{
+        font-size: 13px;
+    }
+    .video{
+        left: 0%;
+    }
+    .habit-description,
+    .run-content p,
+    .training-description p,
+    .team-header{
+        width: auto;
+    }
+    .habit-main,
+    .run,
+    .team-content,
+    .footer-content,
+    .calculator-container{
+        grid-template-columns: 1fr;
+    }
+    .habit-card h5{
+        font-size: 26px;
+    }
+    .habit-card p{
+        font-size: 20px;
+        width: 90%;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+    .run-btn{
+        padding: 17px 86px;
+        margin-bottom: 30px;
+    }
+    .training-description h2{
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+    .row-1,
+    .row-2{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 160px;
+    }
+    .exercise-img-3 p,
+    .exercise-img-5 p,
+    .exercise-img-6 p{
+        top: 50%;
+    }
+    .exercise-img-4 p{
+        left: 40%;
+    }
+    .common-exercise p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .team-content .card h4{
+         font-size: 26px;
+    }
+    .team-content .card p{
+         font-size: 16px;
+         margin-top: 10px;
+    }
+    .card-1 h4{
+        top: 69% !important;
+    }
+}  
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .menubar-item{
+        gap: 2rem;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content h1{
+        font-size: 50px;
+    }
+    .banner-content, .banner-img{
+        width: 100%;
+    }
+    .banner-img-box{
+        justify-content: center;
+    }
+    .workout{
+        left: 57%;
+    }
+    .habit-main{
+        grid-template-columns: repeat(2,1fr);     
+    }
+    .habit-card p{
+        font-size: 16px;
+    }
+    .calculator-container{
+        grid-template-columns: 1fr;
+    }
+    .footer-content{
+        grid-template-columns: 1.2fr 0.8fr 0.8fr;
+        gap: 1.5rem;
+    }
+    .footer-1 p{
+        width: 100%;
+    }
+    .footer-1 h4{
+        line-height: 70px;
+        margin-bottom: 20px;
+    }
+}
