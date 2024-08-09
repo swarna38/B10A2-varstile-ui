@@ -1,5 +1,43 @@
-
-@media screen and (max-width: 576px){
+@media screen and (max-width: 412px){
+    .btn-primary{
+        padding: 10px 20px !important;
+    font-size: 12px !important;
+    letter-spacing: 0px;
+    }
+    .btn-secoundary{
+        margin-left: 0px;
+    }
+    .nav-bar{
+        padding: 0.5rem 0 0rem 0;
+    }
+    .ham-burs{
+        display: block;
+        color: white;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .menubar{
+        display: none;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .row-1,
+    .row-2{
+        grid-template-columns: 1fr !important;
+    }
+.form-row-1,
+.form-row-2,
+.form-row-3{
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    overflow: hidden;
+}
+.calculator-right p{
+    width: 80% !important;
+}
+}
+@media screen and (min-width: 412px) and (max-width: 576px){
     .nav-bar{
         padding: 0.5rem 0 0rem 0;
     }
