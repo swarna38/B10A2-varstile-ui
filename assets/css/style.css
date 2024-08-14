@@ -238,7 +238,7 @@ main{
 .row-2{
     grid-template-columns: 1.2fr 0.8fr 1fr;
 }
-.training-content img{
+.training-content, .training-content img{
     height: 100%;
     width: 100%;
 }
@@ -336,25 +336,55 @@ th, .team-content .card h4{font-size: 15px;
 .form{
     margin: 30px 0;
 }
-.form-row-1,
-.form-row-2,
-.form-row-3{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin-bottom: 12px;
-}
-.form-row-3{
-    grid-template-columns: 1fr;
-}
-.form input, select{
-    border-radius: 6px;
+input, select{
     background: rgba(255, 255, 255, 0.1);
     border: none;
-    padding: 12px;
-    color: rgba(255, 255, 255, 0.5);
+    padding: 12px 0;
+    border-radius: 6px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.6);
     font-size: 15px;
-    font-weight: 500;
+}
+.form-row-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+/* =====pricing list======= */
+.pricing{
+    margin-bottom: 50px;
+}
+.pricing-header{
+    width: 60%;
+    margin: 40px auto 60px auto;
+    text-align: center;
+}
+strong{
+    color: rgb(196, 189, 189);
+    font-weight: 700;
+}
+.price-right h4{
+    font-size: 24px;
+    line-height: 50px;
+}
+.price-right p{
+    font-size: 14px;
+}
+.price-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.price-left img{
+    width: 100% !important;
+}
+.offer,
+.services,
+.membership{
+    color: rgb(121, 115, 115);
+    margin-top: 20px;
 }
 /* =====team star====== */
 .team{
