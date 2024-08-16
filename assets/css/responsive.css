@@ -1,4 +1,4 @@
- 
+/* mobile responsive  */
 @media screen and (max-width: 576px){
     .nav-bar{
         padding: 0.5rem 0 0rem 0;
@@ -113,12 +113,6 @@
     .pricing-header{
         width: 80%;
     }
-
-
-
-
-
-
     .team-header h2{
         line-height: 50px;
         margin-bottom: 30px;
@@ -132,7 +126,53 @@
     .team-content .card p{
          font-size: 16px;
          margin-top: 10px;
+    }    
+} 
+/* tablet responsive   */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .menubar-item{
+        gap: 1.6rem;
     }
-     
-     
-}  
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content, .banner-img{
+        width: 100%;
+    }
+    .banner-content p{
+        font-size: 18px;
+        width: 85%;
+    }
+    .btn-primary{
+        padding: 14px 38px;
+    }
+    .banner-img-box{
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .workout{
+        top: 25%;
+        left: 56%;
+    }
+    .habit-main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .habit-card h5{
+        font-size: 24px;
+    }
+    .habit-card p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .run-content p{
+        width: 80%;
+    }
+    .calculator-container,
+    .footer-content{
+        grid-template-columns: 1fr;
+    }
+    .bmi-btn{
+        padding: 18px 80px;
+    }
+}
+
